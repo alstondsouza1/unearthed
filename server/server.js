@@ -1,4 +1,6 @@
 import express from 'express'
+import './config/dotenv.js'
+
 import path from 'path'
 import { fileURLToPath } from 'url'
 import giftsRouter from './routes/gifts.js'
